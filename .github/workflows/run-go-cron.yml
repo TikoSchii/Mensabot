@@ -2,7 +2,7 @@ name: Run Go Code on Schedule
 
 on:
   schedule:
-    - cron: "0 10 * * *"   # jeden Tag 12:00 UTC
+    - cron: "0 10 * * 1-5"   # jeden Tag 12:00 UTC
   workflow_dispatch:       # erlaubt manuelles Ausführen
 
 jobs:
